@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2026-09-12
+
+### Fixed
+- Replaced `text-indent` on the title ornament with padding and removed a duplicate `letter-spacing` on modal titles (both flagged by the theme linter). No visual change.
+
 ## [1.0.0] - 2026-09-12
 
 ### Added
@@ -9,4 +14,5 @@
 - The explorer as the deck: Cinzel folder labels with stars, italic files, gold-ringed active file, moon phases at the foot. Sidebars and chrome stay night in both schemes.
 - Night mode (the black-and-gold deck) and day mode (a parchment card on the same desk).
 
+[1.0.1]: https://github.com/Real-Fruit-Snacks/obsidian-grimoire/releases/tag/1.0.1
 [1.0.0]: https://github.com/Real-Fruit-Snacks/obsidian-grimoire/releases/tag/1.0.0

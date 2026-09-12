@@ -228,7 +228,7 @@ body {
 }
 .markdown-source-view .inline-title, .markdown-preview-view .inline-title, .inline-title, .markdown-rendered h1, .cm-line.HyperMD-header-1 { text-align: center; }
 .markdown-source-view .inline-title::before, .markdown-preview-view .inline-title::before, .markdown-rendered h1::before, .cm-line.HyperMD-header-1::before {
-  content: "✦ ✦ ✦"; display: block; font-family: var(--gr-caps); font-size: 11px; letter-spacing: .5em; color: var(--gr-gold-2); margin-bottom: 8px; text-shadow: none; text-indent: .5em;
+  content: "✦ ✦ ✦"; display: block; font-family: var(--gr-caps); font-size: 11px; letter-spacing: .5em; color: var(--gr-gold-2); margin-bottom: 8px; text-shadow: none; padding-left: .5em;
 }
 .markdown-rendered h2, .cm-s-obsidian .cm-header-2 { font-family: var(--gr-caps); font-weight: 400; letter-spacing: .24em; text-transform: uppercase; color: var(--gr-gold); }
 .markdown-rendered h2 { display: flex; align-items: center; justify-content: center; gap: 22px; text-align: center; }
@@ -384,7 +384,7 @@ input:focus, textarea:focus, .search-input-container input:focus { border-color:
 
 .modal-bg { background: rgba(8, 5, 12, 0.7); }
 .modal, .prompt { background: var(--gr-card); border: 1px solid var(--gr-gold); outline: 1px solid var(--gr-gold); outline-offset: 4px; border-radius: 14px; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6); }
-.modal-title { font-family: var(--gr-display); font-weight: 600; font-size: 18px; letter-spacing: .2em; text-transform: uppercase; letter-spacing: .06em; color: var(--gr-gold); text-align: center; }
+.modal-title { font-family: var(--gr-display); font-weight: 600; font-size: 18px; letter-spacing: .2em; text-transform: uppercase; color: var(--gr-gold); text-align: center; }
 .modal-close-button { color: var(--gr-gold-2); }
 .modal-close-button:hover { color: var(--gr-gold); }
 .prompt-input { font-family: var(--gr-body); font-size: 18px; }
